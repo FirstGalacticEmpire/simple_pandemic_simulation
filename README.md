@@ -1,13 +1,13 @@
 # simple_pandemic_simulation
-I’ve spent literally too many hours on this project, unfortunately, from time to time, there are some bugs, it’s far from perfect.<br>
-To remove an agent, first it needs to be selected by clicking it. Clicking on agents also marks current agent path for couple of seconds. Program loads the map from json file, that was created using program “Tiled” (open source tile map creator). Sliders allow adjustment of several parameters.
+I’ve spent too many hours on this project, unfortunately, from time to time, there are still some bugs, it’s far from perfect.<br>
+To remove an agent, first it needs to be selected by clicking it. Clicking on agents also marks current agent path for a couple of seconds. Program loads the map from json file, that was created using program “Tiled” (open source tile map creator). Sliders allow adjustment of several parameters.
 Every step specific agent make, it uses A* to find best possible route. 
 There should be only one agent at one tile at the same time (expect for shops).
-Map contains teleporters, so there was need to create special heuristic for used A* algorithms. 
+Map contains teleporters, so there was need to create a special heuristic for  A* algorithms. 
 Teleports works similarly to intersections (there can be only one agent inside two tiles that build a teleporter). 
 A* implementation includes existance of teleports. 
-Agents can infect other agents on adjacent tiles, and while they are inside the shop. 
-I hope, despite the shortcomings of the project I’ve show a lot of effort. I’ve tried my best to stick to OOP objectives, and also I’ve tried to implement at least couple of design patterns.<br>
+Agents can infect other agents on adjacent tiles, also they infect others while they are inside the shop. 
+I hope, despite the shortcomings of the project I’ve shown a lot of effort. I’ve tried my best to stick to OOP objectives, and also I’ve tried to implement at least couple of design patterns.<br>
 Program can be run using following comand:<br>
 java --module-path path_to_javafx --add-modules javafx.controls,javafx.fxml,javafx.media -jar path_to_jar_file "path to my_second_map.json"
 <br>
