@@ -12,8 +12,4 @@ Program can be run using following comand:<br>
 java --module-path path_to_javafx --add-modules javafx.controls,javafx.fxml,javafx.media -jar path_to_jar_file "path to my_second_map.json"
 <br>
 Example:<br>
-<<<<<<< HEAD
 java --module-path C:/Users/Janek_PC/Desktop/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml,javafx.media -jar C:/Users/Janek_PC/IdeaProjects/opp_fx/out/artifacts/opp_fx_jar2/opp_fx.jar "C:\\Users\\Janek_PC\\Desktop\\my_second_map.json"
-=======
-java --module-path C:/Users/Janek_PC/Desktop/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml,javafx.media -jar C:/Users/Janek_PC/IdeaProjects/opp_fx/out/artifacts/opp_fx_jar2/opp_fx.jar "C:\\Users\\Janek_PC\\Desktop\\my_second_map.json"
->>>>>>> 99e761a3e9093eb40ef1beeefd102ebc3065db95
